@@ -13,7 +13,7 @@ import Preloader from './components/Preloader.vue';
 
 import axios from "axios";
 
-const baseUrl = import.meta.env.VITE_API_URL;
+const baseUrl = `${import.meta.env.VITE_API_URL}/cms`;
 
 export default {
   components: {
